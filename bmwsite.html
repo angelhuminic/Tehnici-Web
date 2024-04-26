@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmwsite.css">
+    <title>BMW Website</title>
+</head>
+<body>
+<h1 align="center">BMW M</h1>
+    <header>
+      <ul class="topnav">
+		<li><a class="active" href="https://www.bmw.ro/ro/configurator.html">Configurator</a></li>
+		<li><a href="file:///E:/My%203rd%20Site/bmwmmodels.html">M Models</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Motorsport</a>
+				<div class="dropdown-content">
+					<a href="file:///E:/My%203rd%20Site/MHybridV8.html">BMW M HYBRID V8</a>
+					<a href="file:///E:/My%203rd%20Site/MHybridV8.html">BMW M4 GT3</a>
+					<a href="file:///E:/My%203rd%20Site/MHybridV8.html">BMW M4 GT4</a>
+				</div>	
+		<li class="right"><a href="file:///E:/My%203rd%20Site/bmwcontact.html">Contact</a></li>
+	  </ul>
+      </nav>
+    </header>
+	
+	<main>
+		<div id="slider">
+			<figure>
+				<img src="img/bmwm5.jpg">
+				<img src="img/bmwm3t.jpg">
+				<img src="img/bmwm3.jpg">
+				<img src="img/bmw30csl.jpg">
+			</figure>
+		</div>
+		<div class="animation">
+			<h2 class="animated-text" id="test" style="background-color:lightblue">Simțiți puterea noilor modele BMW M</h2>
+		</div>
+	</main>
+	
+
+    <section class="banner">
+        <p>Descoperiți cele mai noi modele și inovații tehnologice.</p>
+    </section>
+
+    <section class="models">
+        <div class="model">
+            <img src="img/bmw-m135i.jpg" alt="BMW Seria 1">
+			<h3>BMW M135i</h3>
+			<button onclick="myFunctionTI()">_________________________Descriere model________________________________</button>
+            
+        </div>
+        <div class="model">
+            <img src="img/bmw-m240i.jpg" alt="BMW Seria 2">
+            <h3>BMW M240i</h3>
+            <p>O combinație între stil și performanță.</p>
+			<button onclick="myFunctionNI()">___________________________Pret_______________________________________</button>
+        </div>
+    </section>
+		
+	<input type="button" id="Btn" value="____________________________________________________________________________Buton ClassList___________________________________________________________________________" class="Class1" onclick="getClass();">
+	
+	<h2 id="myH1" align="center">Alegeti modelul M preferat!</h2>
+    <p class="myP"></p>
+    <button id="myButton">________BMW M135i________</button>
+    <button>________BMW M240i________</button>
+    <button>________BMW M340i________</button>
+	<button>________BMW M440i________</button>
+    <button>________BMW M550i________</button>
+	<button>________BMW M760i________</button> 
+	
+	<p id="demo"></p>
+	
+    <footer>
+        <p>&copy; BMW M by Angel </p>
+    </footer>
+	<!-- <p id="demo"></p> -->
+    <script src="script.js"></script>
+</body>
+</html>
